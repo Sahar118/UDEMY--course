@@ -1,0 +1,31 @@
+/* the grid container*/
+
+.grid-container{
+    background-color: #ff7052;
+
+    display: grid;
+
+    /* Grid Template Rows Property */
+
+    /*Property Values can be:
+                    <track-size> (lengths, percentages, viewport units or fractions)
+                    <line-name> (an arbitrary name pf your choosing)*/
+    
+    grid-template-rows: 150px 150px;
+
+    
+    /* Grid Template columns Property */
+    /*Property Values can be:
+                    <track-size> (lengths, percentages, viewport units or fractions)
+                    <line-name> (an arbitrary name pf your choosing)*/
+
+    grid-template-columns: 150px 150px ;
+
+
+}
+
+/*The grid item*/
+
+.item{
+    background-color: #fcc006;
+}

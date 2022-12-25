@@ -1,0 +1,29 @@
+/* way 3 */
+
+:root{
+    font-size: 10px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* Way 1 */
+    /* font-size: 3vw; */
+
+    /* Way 2 */
+    /* for smaller Screen Sizes */
+    /* font-size: calc(14px + 2vw); */
+
+    /* Way 3 */
+    font-size:  calc(1.4rem + 2vw);
+}
+
+/* for Larger Screens */
+
+@media screen and (min-height: 1500px){
+    h1{
+        font-size: 1.4rem;
+    }
+    
+}

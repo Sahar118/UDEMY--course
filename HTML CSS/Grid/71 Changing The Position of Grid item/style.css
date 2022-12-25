@@ -1,0 +1,99 @@
+.grid-container{
+    background-color: #ff7052;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    grid-gap:15px;
+}
+
+
+.item{
+    background-color: #fcc006;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+}
+
+.item-1{
+    background-color: chartreuse;
+
+    /* changing the horizotal position */
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+     /* changing the vertical position */
+     grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.item-2{
+    background-color: chocolate;
+}
+
+.item-3{
+    background-color:gray;
+}
+
+.item-4{
+    background-color:yellow;
+
+
+    /* Grid area => row start / col-start / row-end / col-end */
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+.item-5{
+    background-color:aqua;
+
+        /* changing the horizotal position */
+        grid-row: 3/4;
+        /* grid-row-start: 3;
+        grid-row-end: 4;
+     */
+         /* changing the vertical position */
+         grid-column: 2/3;
+         /* grid-column-start: 2;
+        grid-column-end: 3; */
+
+}
+.item-6{
+    background-color:brown;
+}
+
+.item-7{
+    background-color:red;
+}
+
+.item-8{
+    background-color: pink;
+}
+
+.item-9{
+    background-color:lavender;
+        /* changing the horizotal position */
+        grid-row-start: 1;
+        grid-row-end: 2;
+    
+         /* changing the vertical position */
+         grid-column-start: 2;
+        grid-column-end: 3;
+}
+
+.item-10{
+    background-color:lightseagreen;
+}
+
+.item-11{
+    background-color:tan;
+}
+
+.item-{
+    background-color:fuchsia;
+}
+
+
+
+

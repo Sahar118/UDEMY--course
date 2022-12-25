@@ -1,0 +1,23 @@
+/* viewport width => vw */
+/* viewport hieght => vh */
+
+/*
+img{
+    width: 50vw;
+    height: 50vh;
+
+    /* object-fit */
+
+    /* object-fit: cover; */
+    /* object-fit: contain;
+    border: lightslategrey 0.2rem solid; */
+/*}*/
+
+
+/* vmin --- vmax */
+img:last-of-type{
+    /* width: 50vmin; */
+    width: 50vmax;
+    height: 50vh;
+
+}

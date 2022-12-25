@@ -1,0 +1,26 @@
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    height: 40vh;
+
+    background-color: lightsalmon;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* padding: 80px; */
+    /* padding: 10vh 5vw; */
+
+    padding: calc(4px + 2vh) calc(4px + 2vw);
+}
+
+h1{
+    font-size: 60px;
+}
+
+p{
+    font-size: 50px;
+    margin-bottom: 3vh;
+}

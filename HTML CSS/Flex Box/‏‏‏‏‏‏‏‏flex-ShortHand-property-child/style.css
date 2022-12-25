@@ -1,0 +1,92 @@
+/* Flex container => Parent */
+ul{
+    background-color: palevioletred;
+    padding: 20px;
+    /* display: inline-flex; אם רוצים להוסיף שני יו אל אחד ליד השני מבטלים את display:flex */
+    /* justify-content: center; */  /*להעביר את זה משמאל לימין למרכז */
+    display: flex;  /*להעביר את זה מאחד מתחת לשני לאחד ליד השני */
+}
+
+/* Flex Items => Childrens */
+li{
+    list-style: none;
+    color: wheat;
+    background-color: violet;
+    padding: 10px;
+    margin: 20px;
+    /* width: 100px; */
+}
+
+
+/* when the flex-direction is Row/Column  */
+
+/* flex grow (:default => 0 => off) */
+/* +ve value */
+
+
+/* li:nth-child(3){
+    order: 1;
+}
+
+li:nth-child(1){
+    order: 3;
+}
+
+li:nth-child(6){
+    order: 2;
+}
+
+li:nth-child(5){
+    order: 5;
+}
+
+/* -ve value */
+/*
+li:nth-child(8){
+    order: -1;
+} */
+
+/* מה שלא מגדירים הוא מקבל ORDER=0 */
+
+
+
+/* ----------------  (2) flex grow ---------------- */
+/* flex grow (:default => 0 => off) */
+
+/* 2.1 */
+/* li:first-child{
+    flex-grow: 1;
+}
+
+/* 2.2 */
+/*
+li:nth-child(3){
+    flex-grow: 2;
+} */
+
+/* ----------------(3) flex shrink ---------------- */
+/* flex grow (:default => 1 => on) */
+/* 3.1 */
+
+/* li:first-child{
+    flex-shrink: 0;
+} */
+
+
+/* ----------------(4) flex basis ---------------- */
+ /* li:first-child{
+    flex-basis: 25rem;
+ }
+
+ li:nth-child(2){
+    flex-basis: 10rem;
+ } */
+
+
+ /* ----------------(5) flex SHORTHAND ---------------- */
+ /* flex shorthand (flex-grow flex-shrink flex-basis) */
+
+
+ li:first-child{
+    flex: 1 0 20rem;
+ }

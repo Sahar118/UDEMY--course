@@ -1,0 +1,54 @@
+:root{
+    /* font-size: 10px; */
+    font-size: 62.5%;
+}
+
+header{
+    background-color: lightsteelblue;
+    height: 7.5rem;
+}
+
+section{
+    background-color: skyblue;
+    /* height: 30rem; */  /*Comment out or the secound solution to be visyalized */
+}
+
+footer{
+    background-color: lightgreen;
+    height: 8.5rem;
+}
+
+
+header,
+section,
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    color: white;
+}
+
+/*First solution */
+
+section{
+    height: calc(100vh - 7.5rem - 8.5rem);
+}
+
+/* Optional */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Second Solution => recommended */
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    flex-grow: 1;
+}

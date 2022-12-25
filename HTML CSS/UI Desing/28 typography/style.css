@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+    padding: 100px;
+    margin: 20px;
+    display: flex;
+    background-color:#9d2056;
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    border-left: 10px solid white;
+    
+}
+
+
+h1{
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+p{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin-left: 50px;
+}
+
+label{
+    display: block;
+    font-size: 1.3rem;
+    margin: 10px;
+    font-weight: bold;
+    color: whitesmoke
+}
+
+input{
+    height: 3rem;
+    align-items: cent;
+}
+
+#name{
+    border-radius: 10px;
+}
+
+#message{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* input:not(:first-of-type){
+    width: 15rem;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: block;
+    outline: 0;
+    border: none;
+
+  
+} */
+
+input[type="text"], 
+textarea{
+    margin-bottom: 1.5rem;
+    display: block;
+    padding: 0.5rem;
+    width: 80%;
+    background-color: whitesmoke;
+    border: none;
+    border-bottom: 1px solid lightpink;
+    outline: 0;
+    color: black;
+
+}
+
+input[type="text"]:focus, 
+textarea:focus{
+border-bottom: 2px solid #ea6ca2;
+}
+
+input[type="submit"]{
+    background-color: #ffc4d6ff;
+    border: none;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    width: 10rem;
+}

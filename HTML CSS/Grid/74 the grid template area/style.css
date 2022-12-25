@@ -1,0 +1,62 @@
+.grid-container{
+    background-color: #ff7052;
+    display: grid;
+    grid-gap:25px;
+    grid-template-areas: "header header header header header header"
+                         "it-1 it-1 it-2 it-2 it-3 it-3"
+                         ". it-4 it-4 it-4 it-4 ."
+                         "it-5 it-5 it-5 it-6 it-6 it-6"
+                         "footer footer footer footer footer footer";
+
+}
+
+.item, 
+header, 
+footer{
+    background-color: #fcc006;
+    font-size: 20px;
+    text-align: center;
+    line-height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+}
+
+.header{
+    background-color: chartreuse;
+    grid-area: header;
+}
+.item-1{
+    background-color: lightsalmon;
+    grid-area: it-1;
+}
+
+.item-2{
+    background-color: chocolate;
+    grid-area: it-2;
+}
+
+.item-3{
+    background-color:gray;
+    grid-area: it-3;
+ 
+}
+
+.item-4{
+    background-color:yellow;
+    grid-area: it-4;
+
+}
+
+.item-5{
+    background-color:aqua;
+    grid-area: it-5;
+}
+.item-6{
+    background-color:brown;
+    grid-area: it-6;
+}
+
+.footer{
+    background-color: blue;
+    grid-area: footer;
+}

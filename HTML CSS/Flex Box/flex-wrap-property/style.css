@@ -1,0 +1,46 @@
+/* Flex container => Parent */
+ul{
+    background-color: palevioletred;
+    padding: 20px;
+    display: flex;  /*להעביר את זה מאחד מתחת לשני לאחד ליד השני */
+    /* display: inline-flex; אם רוצים להוסיף שני יו אל אחד ליד השני מבטלים את display:flex */
+  
+    /* -------------------- (1) FLEX DIRECTION -------------------- */
+
+    /* 1.1 */
+    /* flex-direction: row; */
+
+    /* 1.2 */
+    /* flex-direction: row-reverse; */
+
+    /* 1.3 */
+    /* flex-direction: column; */
+
+    /* 1.4 */
+    /* flex-direction: column-reverse; */
+
+    /* -------------------- (2) FLEX wrap -------------------- */
+
+    /* 2.1 */
+    /* flex-wrap: nowrap; */
+
+    /* 2.2 */
+    /* flex-wrap: wrap; */
+    
+    /* 2.3 */
+    /* flex-wrap: wrap-reverse; */
+
+
+}
+
+/* Flex Items => Childrens */
+li{
+    list-style: none;
+    color: wheat;
+    background-color: violet;
+    padding: 10px;
+    margin: 20px;
+    width: 100px;
+    text-align: center;
+}
+

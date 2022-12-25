@@ -1,0 +1,127 @@
+.grid-container{
+    background-color: #ff7052;
+    display: grid;
+    height: 700px;
+    grid-gap:25px;
+
+     grid-template-columns: repeat(4, 150px);
+     grid-template-rows: repeat(2, 150px);
+
+     /*--------------- Justify Items Property -------------------*/
+
+      /* property values can be:
+                strech (defualt) | start | end |center 
+                */
+
+    /* justify-items: stretch; */
+    /* justify-items: start; */
+    /* justify-items: end; */
+    /* justify-items: center; */
+
+       /* ---------------------align Items Property------------------ */
+
+      /* property values can be:
+                strech (defualt) | start | end |center 
+                */
+
+    /* align-items: stretch; */
+    /* align-items: start; */
+    /* align-items: end; */
+    /* align-items: center; */
+
+           /* place Items Property (shorthand for align-items and justify-items*/
+
+      /* property values can be:
+                <align-items> <justify-items
+                */
+
+    /* place-items: start end; */
+    /* place-items: start center; */
+    /* place-items: center; */
+    /* place-items: center star; */
+
+/*----------- Justify content ------------*/
+                /* the value can be:start |end| center | strech | space-around | space-between | space-evenly */
+
+    /* justify-content: stretch; */
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content:center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+    /*----------- align content ------------*/
+                /* the value can be:start |end| center | strech | space-around | space-between | space-evenly */
+
+    /* align-content: stretch; */
+    /* align-content: start; */
+    /* align-content: end; */
+    /* align-content:center; */
+    /* align-content: space-around; */
+    /* align-content: space-between; */
+    /* align-content: space-evenly; */
+
+         /*-----------place content ------------*/
+                /* <align-conetnt><justify-cotent> */
+
+    /* place-content: start end; */
+    /* place-content: start center; */
+    /* place-content:center; */
+    /* place-content: strech center; */
+    /* place-content: space-between; */
+    /* place-content: space-evenly; */
+    /* place-content: space-around; */
+    /* place-content: space-between space-around; */
+    /* place-content: space-between; */
+    /* place-content: space-evenly; */
+    /* place-content: space-around; */
+    /* place-content: space-evenly; */
+    /* place-content: space-around; */
+
+}
+
+
+
+
+.item{
+   
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+}
+
+.item-1{
+    background-color: chartreuse;
+}
+
+.item-2{
+    background-color: chocolate;
+}
+
+.item-3{
+    background-color:gray;
+    
+}
+
+.item-4{
+    background-color:yellow;
+}
+
+.item-5{
+    background-color:aqua;
+}
+.item-6{
+    background-color:brown;
+}
+
+.item-7{
+    background-color:red;
+
+}
+
+.item-8{
+    background-color: pink;
+}
+

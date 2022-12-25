@@ -1,0 +1,100 @@
+
+/* --------------section -------------- */
+
+/* body{
+    background-color: blueviolet;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    margin: 30px 50px;
+} */
+
+/* -----1------- */
+/* section:first-child{
+    align-self: flex-start;
+} */
+
+
+/* -------2------- */
+
+/* section{
+    transform: scale(0.89);
+    background-color: rgba(225, 255, 255, 0.4);
+}
+
+section:nth-child(2){
+    transform: scale(1.5);
+    background-color:yellow;
+} */
+
+
+
+/* ***********Example************ */
+
+body{
+    padding: 2rem;
+    background-color:blueviolet;
+    color: wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 1rem;
+}
+
+form{
+    width: 500px;
+    padding: 20px;
+}
+
+label{
+    display: block;
+    padding: 10px 0;
+}
+
+input[type="email"] {
+    padding: 10px;
+    width: 70%;
+    border: none;
+    margin: 0 5px 0 0;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    background: none;
+}
+
+
+/* improvment */
+
+h1{
+    font-size: 2.8rem;
+}
+
+form{
+    background-color: #6900f3;
+}
+
+label{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    font-size: 0.8rem;
+    background-color: #ffed8c;
+    color: #5801cb;
+    font-weight: bold;
+}
+

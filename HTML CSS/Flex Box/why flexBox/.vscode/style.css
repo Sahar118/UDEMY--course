@@ -1,0 +1,19 @@
+/* flex Items => children  */
+
+body{
+    display: flex;
+    flex-wrap: wrap;  /*just a demo on responsivenss */
+}
+
+section{
+    width: 20rem;
+    background-color: salmon;
+    padding: 1.5rem;
+    margin: 1rem;
+    color: wheat;
+}
+
+div.content{
+    background-color: saddlebrown;
+    padding: 1rem;
+}

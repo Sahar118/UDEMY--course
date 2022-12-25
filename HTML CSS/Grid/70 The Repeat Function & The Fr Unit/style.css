@@ -1,0 +1,41 @@
+/* the grid container*/
+
+.grid-container{
+    background-color: #ff7052;
+
+    display: grid;
+
+    /* The Grid Container */
+    /* property value can be: 
+                            repeat(number of rows /columns, track-size) */
+
+    /* The Repeat Function */
+    /* grid-template-columns: 150px 150px 150px 150px; */
+    /* grid-template-rows: 150px 150px 150px; */
+     grid-gap: 25px;
+    
+
+    /* grid-template-columns: repeat(4, 150px); */
+    /* grid-template-rows: repeat(3, 150px); */
+    
+
+
+      /* The fr unit (fractinal unit */
+      /* property value can be: 
+                                fr */
+
+    grid-template-columns: repeat(3, 150px) 1fr;
+    /* grid-template-columns: repeat(3, 150px) 0.5fr; */
+    /* grid-template-columns: 1fr 2fr 2fr 1fr; */
+    /* grid-template-columns: 1fr 2fr 3fr 4fr; */
+    /* grid-template-columns: 150px 1fr 50% 1fr; */
+    height: 600px;
+    /* grid-template-rows: repeat(3, 1fr); */
+    grid-template-rows: repeat(2, 100px) 1fr;
+}
+
+/*The grid item*/
+
+.item{
+    background-color: #fcc006;
+}

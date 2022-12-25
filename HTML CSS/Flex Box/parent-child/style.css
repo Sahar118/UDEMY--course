@@ -1,0 +1,18 @@
+/* Flex container => Parent */
+ul{
+    background-color: palevioletred;
+    padding: 20px;
+    display: flex;  /*להעביר את זה מאחד מתחת לשני לאחד ליד השני */
+    /* display: inline-flex; אם רוצים להוסיף שני יו אל אחד ליד השני מבטלים את display:flex */
+    justify-content: center;  /*להעביר את זה משמאל לימין למרכז */
+}
+
+/* Flex Items => Childrens */
+li{
+    list-style: none;
+    color: wheat;
+    background-color: violet;
+    padding: 10px;
+    margin: 20px;
+    width: 100px;
+}

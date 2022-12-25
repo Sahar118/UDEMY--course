@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: palevioletred;
+    border-left: 17px solid rgba(0, 0, 0, 0.2);
+    height: 100vh;
+    padding: 30px;
+
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+a{ 
+    color: white;
+    margin: 0 auto;
+}
+
+a.logo{
+    display: block;
+    padding-top: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+h1{
+    margin: 64px 0 30px 30px;
+    color: wheat;
+}
+
+p{
+    color: pink;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+a.cta{
+    display: inline-block;
+    background-color: violet;
+    padding: 14px 28px;
+    font-weight: bold;
+    border-radius: 30px;
+    transform: translateX(50%);
+    margin-top: 32px;
+}
+
+
+/* show coulmn */
+.container{
+    border-left: 1px solid white;
+}
+
+/* improvments */
+h1{ 
+    margin-left: 0;
+}
+
+a.cta{
+    transform: none;
+   
+}
